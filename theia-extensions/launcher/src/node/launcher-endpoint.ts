@@ -27,7 +27,7 @@ interface PathEntry {
 export class TheiaLauncherServiceEndpoint implements BackendApplicationContribution {
     protected static PATH = '/launcher';
     protected static STORAGE_FILE_NAME = 'paths.json';
-    private LAUNCHER_LINK_SOURCE = '/usr/local/bin/theia';
+    private LAUNCHER_LINK_SOURCE = '/usr/local/bin/cdt-cloud';
 
     @inject(ILogger)
     protected readonly logger: ILogger;
